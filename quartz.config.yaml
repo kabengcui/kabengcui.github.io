@@ -28,8 +28,8 @@ configuration:
         dark: "#2b2b2b"
         secondary: "#284b63"
         tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        highlight: "rgba(255, 255, 255, 0)"
+        textHighlight: "rgba(255, 255, 255, 0)"
       darkMode:
         light: "#161618"
         lightgray: "#393639"
@@ -38,8 +38,8 @@ configuration:
         dark: "#ebebec"
         secondary: "#7b97aa"
         tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        highlight: "rgba(255, 255, 255, 0)"
+        textHighlight: "rgba(255, 255, 255, 0)"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
