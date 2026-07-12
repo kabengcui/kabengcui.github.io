@@ -1,15 +1,14 @@
-/* 强制禁用所有黄色高亮背景 */
-.recent-note,
-.note-highlight,
-.recent-highlight,
-.folder-container,
-.nav-folder-title,
-.nav-file-title,
-.tree-item-self {
+/* 强制移除所有文字高亮 */
+mark,
+.highlight,
+.highlight-text,
+.text-highlight,
+[class*="highlight"] {
   background-color: transparent !important;
+  color: inherit !important;
 }
 
-/* 移除任何黄色背景类 */
-.highlight-recent {
-  background-color: transparent !important;
+/* 移除黄色荧光笔效果 */
+:root {
+  --text-highlight-color: transparent !important;
 }
