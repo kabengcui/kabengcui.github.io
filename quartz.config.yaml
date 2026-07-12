@@ -297,3 +297,4 @@ layout:
         right: []
     canvas: {}
     bases: {}
+customCss: static/custom.css

@@ -1,0 +1,15 @@
+/* 强制禁用所有黄色高亮背景 */
+.recent-note,
+.note-highlight,
+.recent-highlight,
+.folder-container,
+.nav-folder-title,
+.nav-file-title,
+.tree-item-self {
+  background-color: transparent !important;
+}
+
+/* 移除任何黄色背景类 */
+.highlight-recent {
+  background-color: transparent !important;
+}
