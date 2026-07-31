@@ -7,9 +7,6 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: kabengcui.github.io
-configuration:
-  # ... 其他配置 ...
   baseUrl: zhuyan99.pages.dev
   customCss:
     - static/custom.css
