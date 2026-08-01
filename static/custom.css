@@ -1,57 +1,6 @@
-/* ===== 强制移除所有高亮样式 ===== */
-
-/* 1. 移除文字高亮（荧光笔效果） */
+/* 修改 === 高亮 的颜色 */
 mark,
-.highlight,
-.highlight-text,
-.text-highlight,
-[class*="highlight"] {
-  background-color: transparent !important;
-  background: none !important;
+.highlight {
+  background-color: #e8e0d5 !important;  /* 暖灰色，更古风 */
   color: inherit !important;
-}
-
-/* 2. 移除所有黄色背景高亮 */
-.recent-note,
-.note-highlight,
-.recent-highlight,
-.folder-container,
-.nav-folder-title,
-.nav-file-title,
-.tree-item-self {
-  background-color: transparent !important;
-  background: none !important;
-}
-
-/* 3. 移除列表项的背景高亮 */
-ul > li,
-ol > li {
-  background-color: transparent !important;
-  background: none !important;
-}
-
-/* 4. 移除侧边栏和目录的高亮 */
-.nav-folder-title:hover,
-.nav-file-title:hover,
-.tree-item-self:hover {
-  background-color: transparent !important;
-}
-
-/* 5. 强制覆盖所有可能的高亮变量 */
-:root {
-  --highlight-color: transparent !important;
-  --text-highlight-color: transparent !important;
-}
-
-/* 6. 覆盖所有可能的背景色 */
-* {
-  background-color: transparent !important;
-  --highlight-color: transparent !important;
-}
-
-/* 7. 特别针对 "最近更新" 或 "新内容" 标记 */
-.popover-hint,
-.article-title,
-.content-meta {
-  background-color: transparent !important;
 }
