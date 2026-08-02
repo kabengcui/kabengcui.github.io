@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: 主晏研究所
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -183,7 +183,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: github:quartz-community/content-meta
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
